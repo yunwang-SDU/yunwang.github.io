@@ -7,7 +7,7 @@
   Talk: “Disjoint Cycles in a Digraph with Partial Degree”, Jul. 29–Aug. 2, 2019, Birmingham, UK.
 
 - **The 11th International Colloquium on Graph Theory and combinatorics** <br/>
-  Talk: “Arc-disjoint out- and inbranchings with the same root in co-bipartite digraphs”, Jul. 4-8 2022, Montpellier, France.
+  Talk: “Arc-disjoint out- and in-branchings with the same root in co-bipartite digraphs”, Jul. 4-8 2022, Montpellier, France.
 
 - **2025 Annual Meeting of the Graph Theory and Combinatorics Branch, Operations Research Society of China** <br/>
   Talk: “Arbitrary Orientations of Cycles in Oriented Graphs”, Jul. 25–28, 2025, Yantai, Shandong, China.
