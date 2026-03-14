@@ -26,25 +26,26 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Configure marked
+    marked.use({ mangle: false, headerIds: false });
+
     // Load YAML
     const configPromise = fetch(content_dir + config_file)
         .then(response => response.text())
         .then(text => {
             const yml = jsyaml.load(text);
             Object.keys(yml).forEach(key => {
-                try {
-                    document.getElementById(key).innerHTML = yml[key];
-                } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString());
+                const el = document.getElementById(key);
+                if (el) {
+                    el.innerHTML = yml[key];
+                } else {
+                    console.log("Unknown id and value: " + key + "," + yml[key]);
                 }
             });
         })
         .catch(error => console.log(error));
 
-    // Configure marked
-    marked.use({ mangle: false, headerIds: false });
-
-    // Load all markdown sections
+    // Load markdown sections
     const sectionPromises = section_names.map(name => {
         return fetch(content_dir + name + '.md')
             .then(response => response.text())
@@ -63,17 +64,17 @@ window.addEventListener('DOMContentLoaded', event => {
             });
     });
 
-    // After everything is inserted, typeset math once
+    // Typeset math after all content is inserted
     Promise.all([configPromise, ...sectionPromises]).then(results => {
-        const validContainers = results.filter(x => x instanceof HTMLElement);
+        const validContainers = results.filter(el => el instanceof HTMLElement);
 
-        if (window.MathJax && MathJax.startup) {
+        if (window.MathJax && MathJax.startup && MathJax.typesetPromise) {
             MathJax.startup.promise
                 .then(() => {
                     MathJax.typesetClear(validContainers);
                     return MathJax.typesetPromise(validContainers);
                 })
-                .catch(err => console.log('MathJax typeset failed:', err));
+                .catch(err => console.log('MathJax error:', err));
         }
     });
 
