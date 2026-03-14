@@ -1,13 +1,12 @@
-### Teaching
-- An Introduction to Applied Topology (Winter Courses 2025)  
-  Online Course  
-  Role: Teaching Assistant
+- **Graph and Digraph** (Winter Courses XXXX)  
+  University of Southern Denmark 
+  Role: Instructor
   
-- Statistical Methods (Spring Courses 2022)  
-  Data Science Institute, Shandong University  
+- Probability Theory and Mathematical Statistics (Spring Courses 2022)  
+  Shandong University  
   Role: Teaching Assistant
 
-- Graph Algorithms in the Language of Linear Algebra (Fall Courses 2021)  
+- Extremal Combinatorics (Fall Courses 2021)  
   Online Course  
   Role: Teaching Assistant
   
