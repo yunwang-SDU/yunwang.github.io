@@ -1,10 +1,21 @@
-I am currently a Research Fellow at the School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University (NTU), Singapore.
+<p style="font-size: 30px; font-weight: 700;">Yun Wang | 王赟
+<a href="https://orcid.org/0000-0002-9002-6743"
+   target="_blank"
+   rel="noopener"
+   aria-label="View ORCID record">
+  <img src="static/assets/img/ORCID.svg"
+       alt="ORCID iD"
+       style="width:20px;height:20px;vertical-align:middle;">
+</a>
+</p>
 
-### Google Schol
-[Google Scholar Profile - Longlong Li](https://scholar.google.com.hk/citations?user=kiaiB_oAAAAJ)
+I am currently a postdoctoral researcher at the Data Science Institute, Shandong University, Jinan.
+
+<!--### Google Schol
+[Google Scholar Profile - Longlong Li](https://scholar.google.com.hk/citations?user=kiaiB_oAAAAJ)-->
 
 ### Contact
-- **Email:** longlee[at]mail.sdu.edu.cn
+- **Email:**  yunwang@sdu.edu.cn
 
 ### Education
 - Shandong University, China  
