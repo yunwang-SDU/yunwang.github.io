@@ -1,9 +1,6 @@
-
-
-const content_dir = 'contents/'
-const config_file = 'config.yml'
-const section_names = ['home', 'publications', 'awards', 'projects', 'teaching', 'talks']
-
+const content_dir = 'contents/';
+const config_file = 'config.yml';
+const section_names = ['home', 'publications', 'awards', 'projects', 'teaching', 'talks'];
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -14,7 +11,7 @@ window.addEventListener('DOMContentLoaded', event => {
             target: '#mainNav',
             offset: 74,
         });
-    };
+    }
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
@@ -29,8 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-
-    // Yaml
+    // Load YAML config
     fetch(content_dir + config_file)
         .then(response => response.text())
         .then(text => {
@@ -39,27 +35,30 @@ window.addEventListener('DOMContentLoaded', event => {
                 try {
                     document.getElementById(key).innerHTML = yml[key];
                 } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
+                    console.log("Unknown id and value: " + key + "," + yml[key].toString());
                 }
-
-            })
+            });
         })
         .catch(error => console.log(error));
 
+    // Configure marked
+    marked.use({ mangle: false, headerIds: false });
 
-    // Marked
-    marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
+    // Load markdown sections
+    section_names.forEach((name) => {
         fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
-                // MathJax
-                MathJax.typeset();
+                const container = document.getElementById(name + '-md');
+                container.innerHTML = html;
+
+                // Re-render math only inside this section
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                    return MathJax.typesetPromise([container]);
+                }
             })
             .catch(error => console.log(error));
-    })
+    });
 
-}); 
+});
