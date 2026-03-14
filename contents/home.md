@@ -34,4 +34,4 @@ I am currently a postdoctoral researcher at the Data Science Institute, Shandong
   Sept. 2015 – Jun. 2019
   
 ### Research Interests
-Graph Neural Networks, Topological Deep Learning, AI for Science
+Digraph theory, Probabilistic Method.
