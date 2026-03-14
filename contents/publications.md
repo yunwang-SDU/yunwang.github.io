@@ -36,8 +36,8 @@
 - **Yun Wang**, Jin Yan, and Shuo Zhu. On Disjoint Cycles of the Same Length in Tournaments.
     _Acta Math. Appl. Sin. Engl.Ser._, 2022, 38:271–281.  [[Paper]](https://doi.org/10.1007/s10255-022-1072-x)
 
-- Suyun Jiang, **Yun Wang**, and Jin Yan. Vertex disjoint copies of \\(K_{1,4}\\) in claw-free graphs.
+- Suyun Jiang, **Yun Wang**, and Jin Yan. Vertex disjoint copies of $K_{1,4}$ in claw-free graphs.
   <i>Appl. Math. Comput.</i>, 2021, 393:125768. [[Paper]](https://doi.org/10.1016/j.amc.2020.125768)
 
-- **Yun Wang** and Jin Yan. Packing a number of copies of a \\((p , q)\\)-graph.
+- **Yun Wang** and Jin Yan. Packing a number of copies of a $(p , q)$-graph.
    _Discrete Appl. Math._, 2021, 289:302-312.  [[Paper]](https://doi.org/10.1016/j.dam.2020.11.010)
