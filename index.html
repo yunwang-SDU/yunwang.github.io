@@ -41,10 +41,11 @@
     <script>
         window.MathJax = {
             tex: {
-                inlineMath: [['\\(', '\\)'], ['$', '$']],
-                displayMath: [['\\[', '\\]'], ['$$', '$$']],
-                processEscapes: true,
-                processEnvironments: true
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            startup: {
+                typeset: false
             },
             svg: {
                 fontCache: 'global'
