@@ -1,15 +1,15 @@
 #### Preprints
-- Junqing Cai, <a href="https://faculty.sdu.edu.cn/wangguanghui1/zh_CN/index.htm"  >Guanghui Wang</a>, **Yun Wang**, and Zhiwei Zhang. Ore-type condition for antidirected Hamilton cycles in oriented graphs. [[arXiv]](https://arxiv.org/abs/2511.11302)
+- <a href="https://sxkx.tjnu.edu.cn/info/1216/4569.htm">Junqing Cai</a>, <a href="https://faculty.sdu.edu.cn/wangguanghui1/zh_CN/index.htm"  >Guanghui Wang</a>, **Yun Wang**, and <a href="https://zhiwei-sdu.github.io/homepage/">Zhiwei Zhang</a>. Ore-type condition for antidirected Hamilton cycles in oriented graphs. [[arXiv]](https://arxiv.org/abs/2511.11302)
 
-- <a href="https://faculty.sdu.edu.cn/wangguanghui1/zh_CN/index.htm"  >Guanghui Wang</a>, **Yun Wang**, and Zhiwei Zhang. Arbitrary orientations of cycles in oriented graphs. [[arXiv]](https://arxiv.org/abs/2504.09794)
+- <a href="https://faculty.sdu.edu.cn/wangguanghui1/zh_CN/index.htm"  >Guanghui Wang</a>, **Yun Wang**, and <a href="https://zhiwei-sdu.github.io/homepage/">Zhiwei Zhang</a>. Arbitrary orientations of cycles in oriented graphs. [[arXiv]](https://arxiv.org/abs/2504.09794)
 
-- Fuhong Ma, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm"  >Jin Yan</a>. 4-cycle tilings in a digraph. [[pdf]](static/assets/4_cycle_tiling.pdf)
+- <a href="https://sci.sdut.edu.cn/2024/1012/c9636a528164/page.htm">Fuhong Ma</a>, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm"  >Jin Yan</a>. 4-cycle tilings in a digraph. [[pdf]](static/assets/4_cycle_tiling.pdf)
 
 #### Published
-- <a href="https://www.imada.sdu.dk/u/jbj/"    >Jørgen Bang-Jensen</a>, **Yun Wang**, and Anders Yeo.  Generalized paths and cycles in semicomplete multipartite digraphs.
+- <a href="https://www.imada.sdu.dk/u/jbj/"    >Jørgen Bang-Jensen</a>, **Yun Wang**, and <a href="https://portal.findresearcher.sdu.dk/en/persons/yeo/"  >Anders Yeo</a>.  Generalized paths and cycles in semicomplete multipartite digraphs.
   <i>Discrete Appl. Math.</i>, 2025, 377:459-479. [[Paper]](https://doi.org/10.1016/j.dam.2025.08.021)
 
-- Yubao Guo, Lutz Volkmann, and **Yun Wang**.  Signed total Roman domination and domatic numbers in graphs.
+- <a href="https://www.mathc.rwth-aachen.de/en/~guo/home?">Yubao Guo</a>, <a href="https://www.math2.rwth-aachen.de/en/mitarbeiter/volkm?">Lutz Volkmann</a>, and **Yun Wang**.  Signed total Roman domination and domatic numbers in graphs.
   _Appl. Math. Comp._, 2025, 487:129074. [[Paper]](https://doi.org/10.1016/j.amc.2024.129074)
 
 - <a href="https://www.imada.sdu.dk/u/jbj/"    >Jørgen Bang-Jensen</a> and **Yun Wang**. Strong arc decompositions of split digraphs.
@@ -27,7 +27,7 @@
 - Chun-Jiao Song, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm"  >Jin Yan</a>. Disjoint Cycles and Degree Sum Condition in a Graph.
   <i>J. Oper. Res. Soc. China</i>, 2024, 12:1072–1087. [[Paper]](https://doi.org/10.1007/s40305-023-00473-5)
 
-- Hong Wang, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm"  >Jin Yan</a>. Disjoint Cycles in a Digraph with Partial Degree.
+- <a href="https://www.uidaho.edu/people/hwang">Hong Wang</a>, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm"  >Jin Yan</a>. Disjoint Cycles in a Digraph with Partial Degree.
     _SIAM J. Discrete Math._, 2023, 37(1):221-232.  [[Paper]](https://doi.org/10.1137/21m1460594)
 
 - Yuzhen Qi, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm"  >Jin Yan</a>. Disjoint cycles with partial degree conditions in claw-free graphs.
