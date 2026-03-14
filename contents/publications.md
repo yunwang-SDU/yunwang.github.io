@@ -6,22 +6,22 @@
 - Fuhong Ma, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm" target="_blank" rel="noopener">       Jin Yan       </a>. 4-cycle tilings in a digraph. [[pdf]](static/assets/4_cycle_tiling.pdf)
 
 #### Published
-- Jørgen Bang-Jensen, **Yun Wang**, and Anders Yeo.  Generalized paths and cycles in semicomplete multipartite digraphs.
+- <a href="https://www.imada.sdu.dk/u/jbj/"  rel="noopener">Jørgen Bang-Jensen</a>, **Yun Wang**, and Anders Yeo.  Generalized paths and cycles in semicomplete multipartite digraphs.
   <i>Discrete Appl. Math.</i>, 2025, 377:459-479. [[Paper]](https://doi.org/10.1016/j.dam.2025.08.021)
 
 - Yubao Guo, Lutz Volkmann, and **Yun Wang**.  Signed total Roman domination and domatic numbers in graphs.
   _Appl. Math. Comp._, 2025, 487:129074. [[Paper]](https://doi.org/10.1016/j.amc.2024.129074)
 
-- Jørgen Bang-Jensen and **Yun Wang**. Strong arc decompositions of split digraphs.
+- <a href="https://www.imada.sdu.dk/u/jbj/"  rel="noopener">Jørgen Bang-Jensen</a> and **Yun Wang**. Strong arc decompositions of split digraphs.
   <i>J. Graph Theory</i>, 2025, 108:5–26. [[Paper]](https://doi.org/10.1002/jgt.23157)
 
-- Jørgen Bang-Jensen and **Yun Wang**. Edge‐arc‐disjoint paths in semicomplete mixed graphs.
+- <a href="https://www.imada.sdu.dk/u/jbj/"  rel="noopener">Jørgen Bang-Jensen</a> and **Yun Wang**. Edge‐arc‐disjoint paths in semicomplete mixed graphs.
   <i>J. Graph Theory</i>, 2025, 108:705–721.. [[Paper]](https://onlinelibrary.wiley.com/doi/10.1002/jgt.23199)
 
-- Jørgen Bang-Jensen and **Yun Wang**. Arc-disjoint out- and in-branchings in compositions of digraphs.
+- <a href="https://www.imada.sdu.dk/u/jbj/"  rel="noopener">Jørgen Bang-Jensen</a> and **Yun Wang**. Arc-disjoint out- and in-branchings in compositions of digraphs.
   <i> Eur. J. Comb.</i>, 2024, 120:103981. [[Paper]](https://doi.org/10.1016/j.ejc.2024.103981)
 
-- Jørgen Bang-Jensen and **Yun Wang**. Arc‐disjoint out‐branchings and in‐branchings in semicomplete digraphs.
+- <a href="https://www.imada.sdu.dk/u/jbj/"  rel="noopener">Jørgen Bang-Jensen</a> and **Yun Wang**. Arc‐disjoint out‐branchings and in‐branchings in semicomplete digraphs.
   <i>J. Graph Theory</i>, 2024, 106:182–197. [[Paper]](https://onlinelibrary.wiley.com/doi/10.1002/jgt.23072)
 
 - Chun-Jiao Song, **Yun Wang**, and <a href="https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm" target="_blank" rel="noopener">       Jin Yan       </a>. Disjoint Cycles and Degree Sum Condition in a Graph.
