@@ -21,12 +21,12 @@ I am currently a postdoctoral researcher at the Data Science Institute, Shandong
 - Shandong University, China  
   Ph.D. in Operations Research and Cybernetics  
   Jul. 2017 – Jun. 2024
-  Advisor: Prof. Jin Yan [[Homepage]]
+  Advisor: Prof. Jin Yan [[Homepage]](https://faculty.sdu.edu.cn/yanjin/zh_CN/index.htm)
 
 - University of Southern Denmark, Denmark  
   Ph.D. in Mathematics  
   Dec. 2021 – Feb. 2024
-  Advisor: Prof. Jørgen Bang-Jensen [[Homepage]]
+  Advisor: Prof. Jørgen Bang-Jensen [[Homepage]](https://www.imada.sdu.dk/u/jbj/)
 
 - Shanxi University, China  
   B.S. in Information and Computing Science  
