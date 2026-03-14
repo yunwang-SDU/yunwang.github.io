@@ -19,19 +19,18 @@ I am currently a postdoctoral researcher at the Data Science Institute, Shandong
 
 ### Education
 - Shandong University, China  
-  Ph.D. Candidate in Data Science  
-  Sept. 2019 – Dec. 2025  
-  Advisor: Prof. Guanghui Wang [[Homepage]](https://faculty.sdu.edu.cn/wangguanghui1/zh_CN/index.htm)<br>
+  Ph.D. in Operations Research and Cybernetics  
+  Jul. 2017 – Jun. 2024
+  Advisor: Prof. Jin Yan [[Homepage]]
 
-- Nanyang Technological University (NTU), Singapore  
-  School of Physical and Mathematical Sciences (SPMS)  
-  Visiting Student  
-  Oct. 2023 – Oct. 2025  
-  Advisor: Prof. Kelin Xia [[Homepage]](https://personal.ntu.edu.sg/XIAKELIN/)<br>
+- University of Southern Denmark, Denmark  
+  Ph.D. in Mathematics  
+  Dec. 2021 – Feb. 2024
+  Advisor: Prof. Jørgen Bang-Jensen [[Homepage]]
 
-- Shandong University, China  
-  B.Sc. in Mathematics and Applied Mathematics  
-  Sept. 2015 – Jun. 2019
+- Shanxi University, China  
+  B.S. in Information and Computing Science  
+  Sept. 2013 – Jul. 2017  
   
 ### Research Interests
 Digraph theory, Probabilistic Method.
