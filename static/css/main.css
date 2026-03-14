@@ -1,8 +1,7 @@
 @import "./styles.css";
 
-
-:root{
-    --h-title-color:#3948d2;
+:root {
+    --h-title-color: #3948d2;
 }
 
 .header {
@@ -41,19 +40,19 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-section header h2{
+section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
     font-size: 2.3rem;
     line-height: 4rem;
 }
 
-section .main-body{
+section .main-body {
     font-size: 1.3rem;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 2.4rem;
+    color: #222;
 }
-
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
@@ -62,8 +61,6 @@ section .main-body{
 .bg-gradient-primary-to-secondary-gray {
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
-
-
 
 .on-top {
     position: relative;
@@ -87,11 +84,10 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: min(-65px, max(-100px, calc(-1 * 100vw / 12)));
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -99,7 +95,7 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
+    height: max(130px, min(200px, calc(100vw / 6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -109,14 +105,16 @@ section .main-body{
     }
 }
 
-
 .main-body,
 .main-body p,
 .main-body li,
 .main-body a,
 .main-body span,
-.main-body div {
-    font-family: "Times New Roman", Mulish, sans-serif;
+.main-body div,
+.main-body td,
+.main-body th {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
 }
 
 .main-body h1,
@@ -125,6 +123,38 @@ section .main-body{
 .main-body h4,
 .main-body h5,
 .main-body h6 {
-    font-family: "Times New Roman", Newsreader, serif;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
 }
 
+.main-body strong,
+.main-body b {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700 !important;
+}
+
+.main-body em,
+.main-body i {
+    font-style: italic;
+}
+
+.main-body a {
+    text-decoration: none;
+}
+
+.main-body a:hover {
+    text-decoration: underline;
+}
+
+.main-body ul,
+.main-body ol {
+    padding-left: 1.6rem;
+}
+
+.main-body li {
+    margin-bottom: 0.35rem;
+}
+
+.main-body p {
+    margin-bottom: 1rem;
+}
