@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
     );
-    responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItems.forEach(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
                 navbarToggler.click();
@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // Load YAML config
+    // Load YAML
     fetch(content_dir + config_file)
         .then(response => response.text())
         .then(text => {
@@ -44,21 +44,34 @@ window.addEventListener('DOMContentLoaded', event => {
     // Configure marked
     marked.use({ mangle: false, headerIds: false });
 
-    // Load markdown sections
-    section_names.forEach((name) => {
-        fetch(content_dir + name + '.md')
+    // Load all markdown sections first
+    const sectionPromises = section_names.map(name => {
+        return fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown);
                 const container = document.getElementById(name + '-md');
-                container.innerHTML = html;
-
-                // Re-render math only inside this section
-                if (window.MathJax && window.MathJax.typesetPromise) {
-                    return MathJax.typesetPromise([container]);
+                if (container) {
+                    container.innerHTML = html;
+                    return container;
                 }
+                return null;
             })
-            .catch(error => console.log(error));
+            .catch(error => {
+                console.log(error);
+                return null;
+            });
+    });
+
+    // After all sections are inserted, typeset math once
+    Promise.all(sectionPromises).then(containers => {
+        const validContainers = containers.filter(x => x !== null);
+
+        if (window.MathJax && window.MathJax.startup && window.MathJax.typesetPromise) {
+            MathJax.startup.promise.then(() => {
+                MathJax.typesetPromise(validContainers).catch(err => console.log(err));
+            });
+        }
     });
 
 });
