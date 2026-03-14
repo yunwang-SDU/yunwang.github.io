@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     // Load YAML
-    fetch(content_dir + config_file)
+    const configPromise = fetch(content_dir + config_file)
         .then(response => response.text())
         .then(text => {
             const yml = jsyaml.load(text);
@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Configure marked
     marked.use({ mangle: false, headerIds: false });
 
-    // Load all markdown sections first
+    // Load all markdown sections
     const sectionPromises = section_names.map(name => {
         return fetch(content_dir + name + '.md')
             .then(response => response.text())
@@ -63,14 +63,17 @@ window.addEventListener('DOMContentLoaded', event => {
             });
     });
 
-    // After all sections are inserted, typeset math once
-    Promise.all(sectionPromises).then(containers => {
-        const validContainers = containers.filter(x => x !== null);
+    // After everything is inserted, typeset math once
+    Promise.all([configPromise, ...sectionPromises]).then(results => {
+        const validContainers = results.filter(x => x instanceof HTMLElement);
 
-        if (window.MathJax && window.MathJax.startup && window.MathJax.typesetPromise) {
-            MathJax.startup.promise.then(() => {
-                MathJax.typesetPromise(validContainers).catch(err => console.log(err));
-            });
+        if (window.MathJax && MathJax.startup) {
+            MathJax.startup.promise
+                .then(() => {
+                    MathJax.typesetClear(validContainers);
+                    return MathJax.typesetPromise(validContainers);
+                })
+                .catch(err => console.log('MathJax typeset failed:', err));
         }
     });
 
