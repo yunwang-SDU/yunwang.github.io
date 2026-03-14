@@ -110,3 +110,21 @@ section .main-body{
 }
 
 
+.main-body,
+.main-body p,
+.main-body li,
+.main-body a,
+.main-body span,
+.main-body div {
+    font-family: "Times New Roman", Mulish, sans-serif;
+}
+
+.main-body h1,
+.main-body h2,
+.main-body h3,
+.main-body h4,
+.main-body h5,
+.main-body h6 {
+    font-family: "Times New Roman", Newsreader, serif;
+}
+
