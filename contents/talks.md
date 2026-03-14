@@ -1,7 +1,7 @@
 ### Talks
 
 - **The 2018 Engineering Workshop in Kumamoto** <br/>
-  Talk: “Packing Four Copies of a \\((p, q)\\)-Graph”, Nov. 15–17, 2018, Kumamoto, Japan.
+  Talk: “Packing Four Copies of a $(p, q)$-Graph”, Nov. 15–17, 2018, Kumamoto, Japan.
 
 - **British Combinatorial Conference 2019** <br/>
   Talk: “Disjoint Cycles in a Digraph with Partial Degree”, Jul. 29–Aug. 2, 2019, Birmingham, UK.
