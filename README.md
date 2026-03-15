@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/github/license/senli1073/senli1073.github.io)
 ![Last Commit](https://img.shields.io/github/last-commit/senli1073/senli1073.github.io)
 
+<a href="https://yunwang-sdu.github.io/yunwang.github.io/"> Homepage </a>
 # A simple Github Pages template for personal academic websites.
 
 ## Preview
