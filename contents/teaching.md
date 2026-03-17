@@ -1,5 +1,5 @@
-- **Graph and Digraph** (Winter Courses XXXX)  
-  University of Southern Denmark 
+- **Introduction to Graph Theory** (Fall Courses 2022)  
+  University of Southern Denmark <br/>
   Role: Instructor
   
 - Probability Theory and Mathematical Statistics (Spring Courses 2022)  
